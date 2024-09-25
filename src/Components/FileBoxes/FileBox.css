@@ -1,0 +1,64 @@
+.file-box{
+    background-color: var(--light-blue);
+ border-radius: 10px;
+ padding: 0.5rem;
+ position: relative;
+ width: calc(50% - 15px);
+}
+.file-top
+{
+    border: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 6px;
+  
+}
+.ellips{
+    position: absolute;
+  right:25px;
+    display: block;
+    color: var(--primary-color);
+    font-size: 18px;
+    opacity: 0.9;
+}
+.txt-primary{
+    font-size: 25px;
+    float: center;
+    margin: 20px auto;
+    display: block;
+}
+
+.file-name{
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    opacity: 0.9;
+}
+.file-manager h4{
+    margin-top: 15px!important;
+
+}
+.file-manager p{
+    opacity: 0.9 ;
+    font-size: 14px ;
+    color: #999 ;
+}
+.file-icon{
+    font-size: 45px;
+   margin: 20px auto;
+   display: block;
+    
+
+}
+.txt-primary{
+    color: var(--primary-color);
+   
+}
+.txt-secondery{
+    color: #ec9a71;
+}
+.txt-succes{
+    color: #198754;
+}
+.txt-info{
+    color:#1d97ff ;
+}
