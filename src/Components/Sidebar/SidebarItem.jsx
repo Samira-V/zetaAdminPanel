@@ -7,7 +7,8 @@ export default function SidebarItem({item}){
 
     
     if(item.childrens){
-        return (
+     return(
+
             <div className={open ? "sidebar-item open" : "sidebar-item"}>
                 <div className="sidebar-title" >
                     <Link to = {item.path}>
@@ -20,12 +21,12 @@ export default function SidebarItem({item}){
                     { item.childrens.map((child, index) => <SidebarItem key={index} item={child} />) }
                 </div>
             </div>
-        )
-    }else{
+     )
+       
+    }
+    else{
         return (
-            <Link to={item.path } className="sidebar-item plain" onClick={()=>{
-                item.title
-            }}>
+            <Link to={item.path } className="sidebar-item plain" onClick={()=>item.title}>
                 { item.icon && <i className={item.icon}></i> }
                 {item.title}
             </Link>

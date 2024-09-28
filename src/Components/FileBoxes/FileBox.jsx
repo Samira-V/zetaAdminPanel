@@ -6,7 +6,7 @@ export default function FileBox(props) {
         <div className="file-box">
 
             <div className="file-top p-3 mb-2">
-                <i class="fa fa-ellipsis-v f-14 ellips"></i>
+                <i className="fa fa-ellipsis-v f-14 ellips"></i>
               <FaRegFileImage className={`file-icon ${props.className }`}/>
             </div>
             <div className='d-flex flex-column file-manager'>

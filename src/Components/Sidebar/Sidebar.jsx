@@ -7,8 +7,8 @@ import {links} from './../../data/datas'
 
 
 export default function Sidebar() {
- 
-  return (
+ console.log(links)
+ return (
     <div className="sidebar d-flex flex-column">
       <div className="logo-container">
         <img src='./small-logo.png' className='logo' alt='zeta'></img>
