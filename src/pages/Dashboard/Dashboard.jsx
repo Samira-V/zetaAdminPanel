@@ -18,7 +18,7 @@ import BreadCrumb from "../../Components/BreadCrumb/BreadCrumb";
 
 
 export default function Dashboard() {
- 
+
   return (
     <div className='page'>
       <div className="main-header">
@@ -26,8 +26,7 @@ export default function Dashboard() {
           <div className="main-header-left">
             <h4 className="title p-0">File Manager</h4>
           </div>
-          {/* breadcrumb  */}
-        
+        <BreadCrumb />
         </div>
         <div className="main-header-bottom">
           <Button variant="contained" href="#" className="btn">File Filter</Button>

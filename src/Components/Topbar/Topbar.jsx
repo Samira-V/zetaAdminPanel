@@ -20,7 +20,7 @@ import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import AssignmentOutlinedIcon from '@mui/icons-material/AssignmentOutlined';
 import Badge from '@mui/material/Badge';
 import Stack from '@mui/material/Stack';
-import { IoClose } from "react-icons/io5";
+// import { IoClose } from "react-icons/io5";
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 
@@ -353,7 +353,7 @@ console.log('full')
 
                   </div>
                   <div className="close">
-                    <Button className='closeIcon'>< IoClose /></Button>
+                    {/* <Button className='closeIcon'>< IoClose /></Button> */}
                   </div>
                 </div>
               </MenuItem>
@@ -373,7 +373,7 @@ console.log('full')
                     <span className='time '>19:15</span>
                   </div>
                   <div className="close">
-                    <Button className='closeIcon'>< IoClose /></Button>
+                    {/* <Button className='closeIcon'>< IoClose /></Button> */}
                   </div>
                 </div>
               </MenuItem>
@@ -392,7 +392,7 @@ console.log('full')
                     <span className='time'>19:15</span>
                   </div>
                   <div className="close">
-                    <Button className='closeIcon'>< IoClose /></Button>
+                    {/* <Button className='closeIcon'>< IoClose /></Button> */}
                   </div>
                 </div>
               </MenuItem>
@@ -412,7 +412,7 @@ console.log('full')
                     <span className='time '>19:15</span>
                   </div>
                   <div className="close">
-                    <Button className='closeIcon'>< IoClose /></Button>
+                    {/* <Button className='closeIcon'>< IoClose /></Button> */}
                   </div>
                 </div>
               </MenuItem>

@@ -7,7 +7,7 @@ import { IoColorFillOutline } from "react-icons/io5";
 
 export default function Setting() {
   const [showSetting, setShowSetting] = useState(false)
-  const [color, setColor] = useState("#000")
+  
 
   const settingHandler = () => {
     alert("setting")

@@ -7,7 +7,7 @@ import IconButton from '@mui/material/IconButton';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Footer from "../../Components/Footer/Footer";
+// import Footer from "../../Components/Footer/Footer";
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -230,7 +230,7 @@ export default function Default() {
                   <div className="left-part d-flex">
                     <img src="/news/rectangle-29.jpg" className='news-img' alt="" />
                     <div className="disc ms-4">
-                      <a href="" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
+                      <a href="http://localhost:3001/dashboard" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
                       <p className='news-txt'>Lorem ipsum dolor sit amet.</p>
                     </div>
                   </div>
@@ -244,7 +244,7 @@ export default function Default() {
                   <div className="left-part d-flex">
                     <img src="/news/rectangle-26.jpg" className='news-img' alt="" />
                     <div className="disc ms-4">
-                      <a href="" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
+                      <a href="http://localhost:3001/dashboard" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
                       <p className='news-txt'>Lorem ipsum dolor sit amet.</p>
                     </div>
                   </div>
@@ -258,7 +258,7 @@ export default function Default() {
                   <div className="left-part d-flex">
                     <img src="/news/rectangle-27.jpg" className='news-img' alt="" />
                     <div className="disc ms-4">
-                      <a href="" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
+                      <a href="http://localhost:3001/dashboard" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
                       <p className='news-txt'>Lorem ipsum dolor sit amet.</p>
                     </div>
                   </div>
@@ -272,7 +272,7 @@ export default function Default() {
                   <div className="left-part d-flex">
                     <img src="/news/rectangle-29.jpg" className='news-img' alt="" />
                     <div className="disc ms-4">
-                      <a href="" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
+                      <a href="http://localhost:3001/dashboard" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
                       <p className='news-txt'>Lorem ipsum dolor sit amet.</p>
                     </div>
                   </div>
@@ -286,7 +286,7 @@ export default function Default() {
                   <div className="left-part d-flex">
                     <img src="/news/rectangle-28.jpg" className='news-img' alt="" />
                     <div className="disc ms-4">
-                      <a href="" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
+                      <a href="http://localhost:3001/dashboard" className='news-link'><p className='news-title'>Google Project Apply Review</p></a>
 
                       <p className='news-txt'>Lorem ipsum dolor sit amet.</p>
                     </div>
@@ -392,6 +392,7 @@ export default function Default() {
           </div>
         </div>
       </div>
+    
     </div>
   )
 }
